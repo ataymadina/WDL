@@ -14,3 +14,12 @@
 Route::get('/', function () {
     return view('index');
 });
+
+
+Route::get('/resume', function () {
+    return view('resume');
+});
+
+Route::get('/gallery', function () {
+    return view('gallery');
+});
